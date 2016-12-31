@@ -9,3 +9,4 @@
 name "nodejs_demo"
 
 depends "application_javascript", "~> 1.0.0"
+depends "application_git", "~> 1.1.0"
