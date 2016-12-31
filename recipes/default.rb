@@ -1,3 +1,5 @@
+Chef::Log.level = :debug
+
 app = search(:aws_opsworks_app).first
 app_path = "/srv/#{app['shortname']}"
 test = "once again"
