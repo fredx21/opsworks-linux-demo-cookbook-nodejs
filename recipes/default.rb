@@ -1,6 +1,6 @@
 app = search(:aws_opsworks_app).first
 app_path = "/srv/#{app['shortname']}"
-test = "what"
+test = "once again"
 
 package "git" do
   # workaround for:
