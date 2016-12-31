@@ -20,7 +20,7 @@ application app_path do
   git app_path do
     log 'node:'
     log node
-    deploy_key node["deploy"][app['shortname']]["scm"]["ssh_key"]
+    # deploy_key node["deploy"][app['shortname']]["scm"]["ssh_key"]
     repository app["app_source"]["url"]
     revision app["app_source"]["revision"]
   end
